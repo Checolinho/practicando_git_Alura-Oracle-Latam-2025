@@ -18,3 +18,5 @@
 -buscar informaciones por fecha: git log --since=1.month.ago --until=1.day.ago
 
 -formatear la visualización de las informaciones del commit con el comando: git log --pretty="format:%h %s"
+
+``ahora voy a escribir esta línea para hacer una prueba de commit desde la web a la pc``
