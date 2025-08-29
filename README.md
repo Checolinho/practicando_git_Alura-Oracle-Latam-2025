@@ -23,4 +23,8 @@
 
 ``En caso de que se bloquea algún archivo al hacer un commit, se debe usar este comando para borrar el archivo bloqueado, que tendrá la extensión .lock: rm .git/index.lock``
 
-``Al querer conectar un repositorio a la cuenta de git, se debe usar un token. Este Token se crea en la página de Github --> perfil --> settings --> developer settings --> Personal access Token --> Crear Token personal --> delimitar el ámbito del Token y la fecha de expiración del mismo --> Copiar Token
+``Al querer conectar un repositorio a la cuenta de git, se debe usar un token. Este Token se crea en la página de Github --> perfil --> settings --> developer settings --> Personal access Token --> Crear Token personal --> delimitar el ámbito del Token y la fecha de expiración del mismo --> Copiar Token``
+
+``Para indicar qué fue modificado, se usa el comando git diff <nombre del archivo> lo que aparezca en verde habrá sido lo agregado, lo que aparezca en rojo será lo que habrá sido borrado``
+
+``Para <strong>restaurar</strong> la versión de un archivo, se escribe el comando git log --oneline. Una vez hecho esto, se busca en la info desplegada en git el bash perteneciente a la versión del archivo a restaurar. Se copia el bash y se escribe git restore --source <bash> <nombre del archivo>``
