@@ -7,3 +7,14 @@
 -Se creó con éxito el archivo app.js
 
 ``En un futuro se abrirá este archivo con npm install react``
+
+``Para tener en mente:``
+-visualizar todos los commits, uno en cada línea con el comando: git log –oneline
+
+-ver más alteraciones del commit: git log -p
+
+-buscar  información de la persona autora del commit: git log --author="user_name"
+
+-buscar informaciones por fecha: git log --since=1.month.ago --until=1.day.ago
+
+-formatear la visualización de las informaciones del commit con el comando: git log --pretty="format:%h %s"
