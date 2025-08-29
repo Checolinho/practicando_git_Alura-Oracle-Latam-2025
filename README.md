@@ -22,3 +22,5 @@
 ``ahora voy a escribir esta línea para hacer una prueba de commit desde la web a la pc``
 
 ``En caso de que se bloquea algún archivo al hacer un commit, se debe usar este comando para borrar el archivo bloqueado, que tendrá la extensión .lock: rm .git/index.lock``
+
+``Al querer conectar un repositorio a la cuenta de git, se debe usar un token. Este Token se crea en la página de Github --> perfil --> settings --> developer settings --> Personal access Token --> Crear Token personal --> delimitar el ámbito del Token y la fecha de expiración del mismo --> Copiar Token
