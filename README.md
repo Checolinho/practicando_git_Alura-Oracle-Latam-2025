@@ -20,3 +20,5 @@
 -formatear la visualización de las informaciones del commit con el comando: git log --pretty="format:%h %s"
 
 ``ahora voy a escribir esta línea para hacer una prueba de commit desde la web a la pc``
+
+``En caso de que se bloquea algún archivo al hacer un commit, se debe usar este comando para borrar el archivo bloqueado, que tendrá la extensión .lock: rm .git/index.lock``
